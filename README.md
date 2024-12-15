@@ -13,9 +13,21 @@ The **BERT-ViT** configuration demonstrated the highest accuracy, with significa
 
 ## Features
 
-- **Data Preprocessing**: Steps to preprocess imaging and clinical features from the CBIS-DDSM dataset.
-- **Model Architectures**: Implementation of baseline (ResNet) and multimodal models (BERT, ViT, CLIP).
-- **Evaluation**: Comprehensive performance comparison of different model architectures.
+### Data Preprocessing
+- Preprocessing steps for both mammogram images and clinical metadata to ensure compatibility for model training.
+- Handling of missing or inconsistent data, normalization of clinical features, and resizing of images for uniform input.
+
+### Model Architectures
+- **ResNet**: A convolutional neural network (CNN) used as a baseline for image-based classification.
+- **CLIP**: Combines image and text features, providing a mechanism for joint representation learning.
+- **BERT**: Used for encoding clinical textual data, allowing the model to integrate rich, unstructured clinical notes.
+- **Vision Transformers (ViT)**: An alternative architecture for image classification, based on transformer models.
+
+<img width="1073" alt="Architecture" src="https://github.com/user-attachments/assets/cc6be5c0-4958-481d-8724-8f4b7af879e1" />
+
+### Evaluation
+- Performance evaluation of the models using standard metrics such as accuracy, precision, recall, and F1 score.
+- Comparative analysis of image-only versus multimodal models to demonstrate the added value of clinical data in improving diagnostic performance.
 
 ## Authors
 
@@ -24,9 +36,7 @@ The **BERT-ViT** configuration demonstrated the highest accuracy, with significa
 - Uday Malhotra  
 - Vani Kanoria
 
-## Architectures Evaluated
-<img width="1073" alt="Architecture" src="https://github.com/user-attachments/assets/cc6be5c0-4958-481d-8724-8f4b7af879e1" />
-
-
 ## Results
 The BERT-ViT model achieved a test accuracy of 86.36%, representing a 25% improvement over the ResNet baseline.
+
+## Link to paper
