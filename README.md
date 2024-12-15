@@ -38,5 +38,5 @@ The **BERT-ViT** configuration demonstrated the highest accuracy, with significa
 
 ## Results
 
-	•	The BERT-ViT multimodal model achieved the highest test accuracy of 86.36%, showing a 25% improvement over the ResNet baseline model (68.5% accuracy).
-	•	The multimodal models consistently outperformed the image-only models across all evaluation metrics, demonstrating the added value of integrating clinical textual data alongside mammogram images.
+- The BERT-ViT multimodal model achieved the highest test accuracy of 86.36%, showing a 25% improvement over the ResNet baseline model (68.5% accuracy).
+- The multimodal models consistently outperformed the image-only models across all evaluation metrics, demonstrating the added value of integrating clinical textual data alongside mammogram images.
