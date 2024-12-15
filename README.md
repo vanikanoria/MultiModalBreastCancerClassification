@@ -22,7 +22,10 @@ The **BERT-ViT** configuration demonstrated the highest accuracy, with significa
 - Adwait Agashe  
 - Renu Jadhav  
 - Uday Malhotra  
-- Vani Kanoria  
+- Vani Kanoria
+
+## Architectures
+![sampleImage (1)](https://github.com/user-attachments/assets/9c7fc962-fabd-43f6-8c16-27f8449d3b76)
 
 ## Results
 The BERT-ViT model achieved a test accuracy of 86.36%, representing a 25% improvement over the ResNet baseline.
